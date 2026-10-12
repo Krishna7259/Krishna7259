@@ -1,0 +1,44 @@
+name: Update Dynamic Header Banner
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-banner:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # New Step: Install ImageMagick, a powerful image processing tool.
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      # Updated Step: Logic now handles converting JPG to GIF.
+      - name: Update header image based on file type
+        run: |
+          export TZ="Asia/Kolkata"
+          current_hour=$(date +%H)
+          echo "Current hour in IST is $current_hour"
+          
+          if (( current_hour >= 6 && current_hour < 18 )); then
+            echo "It's daytime. Copying day.gif."
+            # Simple copy, since it's already a GIF.
+            cp assets/day.gif assets/dynamic-header.gif
+          else
+            echo "It's nighttime. Converting night.jpg to a GIF."
+            # Use ImageMagick to convert the JPG to a single-frame GIF.
+            convert assets/night.jpg assets/dynamic-header.gif
+          fi
+
+      # Updated Step: The action now looks for the .gif file to commit.
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'CI: Update dynamic header image'
+          file_pattern: 'assets/dynamic-header.gif'
