@@ -11,10 +11,23 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="90%" alt="Animated divider" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/Adi-Deshmukh/Adi-Deshmukh/blob/main/assets/dynamic-header.gif?raw=true" alt="Coding setup banner" width="75%" />
+</p>
+
 <div align="center">
-  <a href="https://github.com/Krishna7259?tab=repositories"><img src="https://img.shields.io/badge/My%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub projects" /></a>
-  <a href="https://in.linkedin.com/in/krishna-h-k-b600363b7"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:krishnahanuma20060920@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Krishna7259?tab=repositories">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90_Portfolio-FF6B6B?style=for-the-badge&logoColor=white&labelColor=000" alt="Portfolio" />
+  </a>
+  <a href="https://in.linkedin.com/in/krishna-h-k-b600363b7">
+    <img src="https://img.shields.io/badge/%F0%9F%92%BC_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000" alt="LinkedIn" />
+  </a>
+  <a href="mailto:krishnahanuma20060920@gmail.com">
+    <img src="https://img.shields.io/badge/%F0%9F%93%A7_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000" alt="Email" />
+  </a>
+  <a href="https://github.com/Krishna7259">
+    <img src="https://img.shields.io/badge/%F0%9F%93%84_Resume-4285F4?style=for-the-badge&logoColor=white&labelColor=000" alt="Resume" />
+  </a>
 </div>
 
 ## 👨‍💻 About Me
@@ -135,6 +148,16 @@ A research-oriented project exploring passive network traffic analysis and machi
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Krishna7259&theme=radical&no-frame=true&no-bg=true&margin-w=8" alt="GitHub trophies" />
+</div>
+
+## 🐍 Contribution Eater
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krishna7259/Krishna7259/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Krishna7259/Krishna7259/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Krishna7259/Krishna7259/output/pacman-contribution-graph.svg">
+  </picture>
 </div>
 
 ## 🎯 Current Mission
